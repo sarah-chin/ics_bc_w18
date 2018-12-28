@@ -5,4 +5,4 @@
 
 
 ### Your Code Here ###
-puts 365.25 * 24
+puts (365.25 * 24).to_i
