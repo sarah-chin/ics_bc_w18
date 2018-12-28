@@ -5,3 +5,4 @@
 
 
 ### Your Code Here ###
+puts 365.25 * 24

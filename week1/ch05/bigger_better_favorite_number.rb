@@ -4,3 +4,7 @@
 
 
 ### Your Code Here ###
+puts "What is your favorite number?"
+num = gets.chomp
+n = num.to_i + 1
+puts 'I think ' + n.to_s + ' is a better option.'
