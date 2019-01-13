@@ -1,8 +1,5 @@
 def old_roman number 
 	output = []
-	if number <= 0
-		return ' '
-	end
 	while number > 0
 		if number >= 1000
 			number_1000 = number/1000
@@ -30,10 +27,10 @@ def old_roman number
 			number = number-5
 		elsif number >= 1
 			output.push "I" * number
-			number = 0
-	return output.join()
+			number = 0 	
 	end
 end
+return output.join()
 end
 
 question = gets.chomp.to_i
